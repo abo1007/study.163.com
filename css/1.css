@@ -1,0 +1,672 @@
+@charset "utf-8";
+/*--------Css Document--------*/
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	color:#000;
+}
+.fl,.dcen-top2-1 .per{
+	float:left;
+}
+.fr{
+	float:right;
+}
+
+/*---------第一行内容开始---------*/
+
+.dtop-top{
+	height:90px;
+	width:100%;
+	overflow:hidden;
+}
+.dtop-top1{
+	width:1200px;
+	height:80px;
+	background:#fff;
+	margin:10px auto 0;
+}
+#dtop1-center{
+	width:420px;
+	height:80px;
+}
+#dtop1-left{
+	width:360px;
+	height:80px;
+}
+#dtop1-right{
+	width:420px;
+	height:80px;
+}
+.dtop-top-1 img{
+	position:relative;
+	top:10px;
+}
+.dtop-top-2-1{
+	height:40px;
+	width:400px;
+	border:1px solid #ccc;
+	position:relative;
+	top:10px;
+	background:#fff;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+#text-top1{
+	height:100%;
+	width:300px;
+	line-height:40px;
+	display:block;
+	border:none;
+	position:relative;
+	font-size:18px;
+	color:#ccc;
+	
+}
+#a-top1{
+	height:40px;
+	width:60px;
+	display:block;
+	line-height:40px;
+	background:#48b155;
+	position:relative;
+	text-align: center;
+	border-radius:0 30px 30px 0;
+	color:#fff;
+	
+}
+#a-top2{
+	height:40px;
+	width:40px;
+	display:block;
+	line-height:40px;
+	position:relative;
+	left:0;
+	text-align: center;
+	font-size:0.8em;
+	font-weight:400;
+}
+.dtop-top-3-1{
+	position:relative;
+}
+.dtop-top-3-1 span{
+	top:20px;
+	left:55px;
+	margin:0 10px;
+	position: relative;
+	line-height:100%;
+	font-size:14px;
+	display:inline-block;
+}
+.dtop-top-3-1 span a{
+	color:#000;
+}
+.dtop-top-3-1 span a:hover{
+	color:#48b155;
+}
+
+/*----------第二行--导航栏开始------------*/
+
+.dtop-cen{
+	height:40px;
+	width:100%;
+}
+.dtop-cen1{
+	width:1200px;
+	height:40px;
+	margin:0 auto;
+}
+.dtop-cen-1,.dtop-cen-2{
+	position: relative;
+	width:600px;
+	height:40px;
+	float: left;
+}
+.dtop-cen1 div ul li{
+	line-height:40px;
+}
+.dtop-cen-1 ul li{
+	float: left;
+	padding-right:30px;
+	line-height:40px;
+}
+.dtop-cen-1 ul .li-under{
+	height: 3px;
+	width: 10px;
+	border-top: 4px solid #48b155;/*只需要将上边显示出来*/
+	position: absolute;
+	left: 0;
+	top: 36px;
+	transition: left .2s ease-in-out 0s;/*包含四个过度属性：执行变换属性、执行时间、速率、延迟*/
+	-webkit-transition: left .2s ease-in-out 0s;/*chrome和safari*/
+	-moz-transition: left .2s ease-in-out 0s;/*firefox*/
+	-o-transition: left .2s ease-in-out 0s;/*opera*/
+}
+.dtop-cen-1 li:nth-child(1):hover~ .li-under{
+    left: 0px;
+	/*li元素的父元素的第一个子元素，当鼠标停留其上时，move元素的left属性改变*/
+}
+.dtop-cen-1 li:nth-child(2):hover~ .li-under{
+    left: 70px;
+}
+.dtop-cen-1 li:nth-child(3):hover~ .li-under{
+    left: 160px;
+}
+
+
+.dtop-cen-2 ul li{
+	float: right;
+	padding-left:30px;
+	font-size:0.9em;
+}
+.hov-green:hover{
+	color:#48b155;
+}
+/*------------横幅开始-----------*/
+
+.dtop-banner{
+	width:100%;
+	height:360px;
+	background:#945cf1;
+}
+.dtop-banner-all{
+	height:100%;
+	margin:0 auto;
+	width:1205px;
+	background:url(../img/banner1.jpg) no-repeat;
+}
+.dtop-banner-right{
+	width:280px;
+	height:320px;
+	background-color:rgba(0,0,0,0.6);
+	position:relative;
+	right:0;
+	top:20px;
+	
+}
+.dtop-banner-right ul li a{
+	color:#ccc;
+	font-size:1em;
+}
+.dtop-banner-right ul{
+	padding:20px 0 20px 20px;
+}
+.dtop-banner-right ul li{
+	line-height:40px;
+}
+.dtop-banner-right ul li a:hover{
+	color:#48b155;
+}
+
+/*-------------中心内容开始---------------*/
+
+.dcen{
+	height:2500px;
+	width:100%;
+	margin-bottom:10px;
+	margin-top:20px;
+}
+/*---第一行开始---*/
+.dcen-top1{
+	width:100%;
+	height:200px;
+	
+}
+.dcen-top1-1{
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+	background:#fff;
+}
+.dcen-top1-1-1{
+	height:50px;
+	width:1200px;
+	overflow:hidden;
+	position:relative;
+	margin-bottom:10px;
+}
+.dcen-top1-1-1 p{
+	
+}
+.dcen-top1-1-1 .p1{
+	font-size:30px;
+	font-weight:300;
+	position: absolute; 
+	left:0;
+	bottom:0;
+}
+.dcen-top1-1-1 .p2{
+	font-size:14px;
+	font-weight:400;
+	text-align:center;
+	bottom:0px;
+	left:220px;
+	position: absolute; 
+	color:#474443;
+}
+.dcen-top1-1 a img{
+	width:180px;
+	height:120px;
+	display: inline-block;
+	margin:0 10px;
+	float: left;
+}
+.dcen-top1-1-2{
+	width:1200px;
+	height:120px;
+}
+/*-----------固定标题开始---------*/
+
+
+/*--------第二行开始----------*/
+.dcen-top2{
+	width:1200px;
+	height:300px;
+	margin:0 auto;
+	background: #FFFFFF;
+}
+.dcen-top2-1{
+	width:1200px;
+	height:300px;
+	/* margin-bottom:10px; */
+
+}
+.dcen-top2-1-per{
+	width:1200px;
+	height:240px;
+
+}
+.dcen-top2-1 .per{
+	width:378px;
+	height:118px;
+	border:1px solid #fff;
+	position:relative;
+	margin-right:20px;
+}
+.dcen-top2-1 .per:hover{
+	border:1px solid #ccc;
+}
+.dcen-top2-1 .dcen-top2-1-text{
+	height:50px;
+	width:1200px;
+	position:relative;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.dcen-top2-1-text p{
+	font-size:30px;
+	font-weight:300;
+	line-height:30px;
+	position: absolute;
+	left:0;
+	top:0px;
+}
+.dcen-top2-1 .per-text{
+	width:260px;
+	height:100px;
+	float:right;
+}
+.dcen-top2-1 .per img{
+	border-radius:50%;
+	display:block;
+	float:left;
+	position: absolute;
+	top:20px;
+	left:10px;
+}
+.dcen-top2-1 .per-text p{
+	position: relative;
+	top:15px;
+	left:0px;
+}
+.dcen-top2-1 .per-text p:first-of-type{
+	font-size:0.8em;
+	line-height:30px;
+}
+.dcen-top2-1 .per-text p:nth-child(2){
+	font-size:1em;
+	line-height:30px;
+}
+.dcen-top2-1 .per-text p:nth-child(3){
+	font-size:0.7em;
+	line-height:30px;
+	color:#474443;
+}
+.dcen-top2-1 .per-text p span{
+	color:#48B155;
+}
+
+/*------------第三行 微专业开始----------*/
+
+.dcen-top3{
+	width:1200px;
+	height:320px;
+	margin:0 auto;
+	background: #fff;
+}
+.dcen-top3-1{
+	width:1200px;
+	height:290px;
+	margin-bottom:10px;
+}
+.dcen-top3-title{
+	width:1200px;
+	height:50px;
+	margin-bottom:20px;
+	
+}
+.dcen-top3-title .title-1{
+	line-height:50px;
+	font-size:30px;
+	font-weight: 300;
+}
+.dcen-top3-title .title-2{
+	line-height:50px;
+	font-size:16px;
+
+	
+}
+.dcen-top3-content{
+	width:1200px;
+	height:230px;
+	margin-bottom:20px;
+}
+.dcen-top3-content1{
+	width:280px;
+	height:220px;
+	margin:0 18px 0 0;
+	float:left;
+	border:1px solid #ccc;
+	border-radius:5px;
+	position: relative;
+}
+
+.dcen-top3-content1 img{
+	width:280px;
+	height:160px;
+	display: block;
+}
+.dcen-top3-content1 .content-p1{
+	left:6px;
+	top:6px;
+	position: relative;
+}
+.dcen-top3-content1 .content-p2{
+	font-size:14px;
+	color:#474443;
+	position: relative;
+	top:6px;
+	left:6px;
+}
+/*------------第四行 限时秒杀开始------------------*/
+.dcen-cen1{
+	height:310px;
+	width:1200px;
+	margin:0 auto;
+	background:#fff;
+}
+.dcen-cen1-1{
+	width:1200px;
+	height:50px;
+	margin-bottom:10px;
+}
+.dcen-cen1-1 p{
+	line-height:50px;
+	font-size:30px;
+	font-weight: 300;
+}
+.dcen-cen1-2{
+	width:1200px;
+	height:40px;
+	margin-bottom:10px;
+}
+.dcen-cen1-2 ul li{
+	float:left;
+	width:199px;
+	height:40px;
+	background:#ecf7ee;
+	line-height:40px;
+	text-align:center;
+	font-size:15px;
+	border-right:1px solid #fff;
+}
+.dcen-cen1-2 ul li:hover{
+	background: #48B155;
+	color:#fff;
+}
+.dcen-cen1-2 ul:after{
+	content:"";
+	display: block;
+	height: 0;
+	clear:both;
+	visibility: hidden;
+}
+.dcen-cen1-3{
+	width:1200px;
+	height:200px;
+}
+.dcen-cen1-block{
+	width:230px;
+	height:200px;
+	float: left;
+	margin-right:12.5px;
+}
+.dcen-cen1-block:nth-child(5){margin-right:0;}
+.dcen-cen1-block img{
+	width:230px;
+	height:125px;
+	border-radius:5px;
+}
+.dcen-cen1-block .block-p1{font-size:14px;}
+.dcen-cen1-block .block-p2{font-size:12px;color:#474443;}
+.dcen-cen1-block .block-p3{position:relative;}
+.dcen-cen1-block .block-p3 .block-p3-sp1{color:red;font-size:20px;}
+.dcen-cen1-block .block-p3 .block-p3-sp2{font-size: 12px;}
+.dcen-cen1-block .block-p3 .block-p3-sp3{position:relative;left:60px;}
+
+/*--------------第五行 学习兴趣开始---------------*/
+/*--dcen高度还剩1470px--*/
+
+.dcen-cen2{
+	width:1200px;
+	height:180px;
+	background:#fff;
+	margin:0 auto;
+	overflow:hidden;
+}
+.dcen-cen2-1{
+	margin:40px 0 30px;
+	width:1200px;
+	height:110px;
+	background:url(../img/xuexixingqu.jpg);
+}
+
+/*----------------第六行---大底部模块开始----------------*/
+/*-------dcen高度剩下1290px---------*/
+.dcen-bot{
+	width:1200px;
+	height:1000px;
+	margin:0 auto;
+	background:#fff;
+}
+.dcen-botc{
+	height:250px;
+	width:1200px;
+	margin:0 auto;
+}
+/*--------系列课程   开始-------------*/
+.dcen-bot1{
+	background: #fff;
+	width:1200px;
+	height:250px;
+}
+.dcen-bot1-title{
+	width:1200px;
+	height:40px;
+	margin-bottom:10px;
+}
+.dcen-bot1-title p{
+	line-height:50px;
+	font-size:30px;
+	font-weight: 300;
+}
+.dcen-bot1-content{
+	height:200px;
+	width:1200px;
+}
+.dcen-bot1-content1{
+	height:180px;
+	width:285px;
+	margin:10px 10px;
+	background-size:cover;
+	position:relative;
+}
+.dcen-bot1-content1:nth-child(1){margin-left:0;}
+.dcen-bot1-content1:nth-child(4){margin-right:0;}
+.dcen-bot1-content-1{background:url(../img/dcen-bot-frank.jpg) no-repeat;}
+.dcen-bot1-content-2{background:url(../img/dcen-bot-office.jpg) no-repeat;}
+.dcen-bot1-content-3{background:url(../img/dcen-bot-python.jpg) no-repeat;}
+.dcen-bot1-content-4{background:url(../img/dcen-bot-juzisheji.png) no-repeat;}
+.bot1-content-text{
+	height:75px;
+	width:250px;
+	margin:47.5px auto;
+	background:rgba(255,255,255,0.8);
+}
+.bot1-content-text .bot-bot1-content-word{
+	height:65px;
+	width:240px;
+	margin:5px;
+	/* border:1px solid rgba(0,0,0,0.3); */
+	line-height:20px;
+	text-align: center;
+	position:relative;
+}
+.bot1-content-text .bot-bot1-content-word p:nth-child(1){
+	position: relative;
+	top:15px;
+	font-size: 18px;
+}
+.bot1-content-text .bot-bot1-content-word p:nth-child(2){
+	position: relative;
+	top:15px;
+	font-size:14px;
+	color:#474443;
+}
+/*------------精选好课  开始-------------*/
+.dcen-bot2{background:#fff;overflow:hidden;}
+.dcen-bot2-title{
+	width:1200px;
+	height:50px;
+	margin-bottom:10px;
+}
+.dcen-bot2-title p{
+	line-height:40px;
+	font-size:30px;
+	font-weight: 300;
+}
+.dcen-bot2-content{
+	height:185px;
+	width:1200px;
+	margin-bottom:5px;
+}
+.dcen-bot2-content1{
+	height:180px;
+	width:230px;
+	margin:0 5px;
+}
+.dcen-bot2-content1 img{
+	width:230px;
+	height:125px;
+}
+.dcen-bot2-content1:nth-child(1){
+	margin-left:0;
+	margin-right:10px;
+}
+.dcen-bot2-content1:nth-child(5){
+	margin-right:0;
+	margin-left:10px;
+}
+.dcen-bot2-content1 p:nth-child(1){
+	font-size: 15px;
+}
+.dcen-bot2-content1 p:nth-child(3){
+	font-size:11px;
+	color:#827f7d;
+}
+
+/*---------------第七行-----横幅二开始------------*/
+/*----dcen高度剩下190px----*/
+.dcen-banner{
+	width:1200px;
+	height:190px;
+	background: #fff;
+	margin:0 auto;
+	overflow:hidden;
+}
+.dcen-banner1{
+	width:1200px;
+	height:130px;
+	margin:30px auto 30px auto;
+}
+.dcen-banner-1{
+	background:url(../img/banner2-1.jpg);
+	width:955px;
+	height:130px;
+	margin-right:20px;
+}
+.dcen-banner-2{
+	 background:url(../img/banner2-2.jpg);
+	 width:225px;
+	 height:130px;
+}
+
+/*--------------底部内容开始--------------*/
+
+.dbot{
+	height:200px;
+	width:100%;
+	background:#474443;
+}
+.dbot1{
+	width:1200px;
+	height:	140px;
+	margin:0 auto 60px;
+	position:relative;
+}
+.dbot1 .bot-p1,.bot-p2 a{
+	color:#fff;
+}
+.dbot1 .bot-p1{
+	position: relative;
+	font-size:14px;
+	top:30px;
+	left:10px;
+	
+}
+.dbot1 .bot-p2{
+	
+}
+.dbot1 .bot-p2 a{
+	display:inline-block;
+	position: relative;
+	margin-right:15px;
+	font-size:14px;
+	top:40px;
+	left:10px;
+}
+.dbot1 .bot-p2 a:hover{
+	text-decoration: underline;
+}
+.dbot1 .bot-p3{
+	position: relative;
+	font-size:12px;
+	top:55px;
+	left:10px;
+	color:#CCCCCC;
+}
+/*---------In the End----------*/
+/*--------css by yangbo--------*/
