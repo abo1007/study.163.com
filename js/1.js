@@ -1,7 +1,17 @@
 /*----Javascript Document----*/
 
 /*--实现图片切换与背景颜色切换的方法---*/
+var timer = null;
+function timeback(num){
+	timer = window.setTimeout(function(){
+		backg(num);
+	},500);
+}
+function timebackstop(){
+	clearTimeout(timer);
+}
 function backg(bnum){
+	//document.getElementById('dcen-banner1').style.background="url(img/banner1.jpg) no-repeat";
 	var sum = bnum;
 	var colorclass=["#945cf1","#e96946","#614bd2","#1e3350","#488f3f","#edd6c4","#3d6c86"];
 	var backgname = "url(img/banner"+sum+".jpg) no-repeat";
@@ -16,6 +26,7 @@ function cleant(){
 		clean++;
 	}	
 }
+
 
 
 // function cleant(){
